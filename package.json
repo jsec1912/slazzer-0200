@@ -1,0 +1,61 @@
+{
+  "name": "slazzer-image-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@quickbaseoss/babel-plugin-styled-components-css-namespace": "^1.0.1",
+    "antd": "^4.11.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "cropperjs": "^1.5.5",
+    "fabric": "^4.3.1",
+    "image-type": "^4.1.0",
+    "js-sha1": "^0.6.0",
+    "material-ui-color": "^0.4.8",
+    "react-color": "^2.19.3",
+    "react-moveable": "^0.26.1",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-sweet-progress": "^1.1.2",
+    "styled-components": "^4.4.0",
+    "throttle-debounce": "^2.1.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-syntax-jsx": "^7.8.3",
+    "@babel/plugin-transform-arrow-functions": "^7.8.3",
+    "@babel/plugin-transform-object-assign": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "ajv": "^6.12.2",
+    "ajv-keywords": "^3.4.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "0.28.7",
+    "gh-pages": "^2.2.0",
+    "highlight.js": "9.13.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "0.19.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development --config webpack-config.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
